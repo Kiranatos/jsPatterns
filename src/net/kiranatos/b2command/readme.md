@@ -3,7 +3,7 @@
 Назначение: для обработки команды в виде объекта
 Родственные шаблоны: Компоновщик, Хранитель, Прототип, Одиночка
 Command Pattern JDK Example: Runnable interface (java.lang.Runnable) and Swing Action (javax.swing.Action) uses command pattern.
-My Questions: может ли быть несколько Invoker-ов, которые имеют общих Command&?
+My Questions: Чи може бути декілька Invoker-ів, які мають спільну Command?
 
 Important Points:
 - Command is the core of this pattern that defines the contract for implementation.
@@ -15,7 +15,7 @@ Important Points:
 - Command pattern is easily extendible, we can add new action methods in receivers and create new Command implementations without changing the client code.
 - The drawback with Command pattern is that the code gets huge and confusing with high number of action methods and because of so many associations.
 
-(e-example from elsewhere, p-my prcatice)
+(e-example from elsewhere, p-my practice)
 e01comp:
     YouTube: Vladimir Vysokomornyi/Школа программирования
     Command User -> Comp

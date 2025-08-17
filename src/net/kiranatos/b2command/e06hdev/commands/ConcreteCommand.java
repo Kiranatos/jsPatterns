@@ -52,7 +52,7 @@ public class ConcreteCommand {
     }
 
     // -------------------------------------- Вентилятор
-    public abstract class FanCommand {
+    public static abstract class FanCommand {
         int prevSpeed;
         CeilingFan fan;
 
